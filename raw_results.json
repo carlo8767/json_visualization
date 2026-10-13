@@ -1,0 +1,59 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "microbenchmark.CartItemDO2Benchmark.testCartItem",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/home/robothg/.jdks/openjdk-26.0.1/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/snap/intellij-idea-community/826/lib/idea_rt.jar=44989",
+            "-Dfile.encoding=UTF-8",
+            "-Dsun.stdout.encoding=UTF-8",
+            "-Dsun.stderr.encoding=UTF-8"
+        ],
+        "jdkVersion" : "26.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "26.0.1+8-34",
+        "warmupIterations" : 5,
+        "warmupTime" : "single-shot",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.8670726,
+            "scoreError" : 0.6923082360656163,
+            "scoreConfidence" : [
+                0.17476436393438366,
+                1.5593808360656163
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.730204,
+                "50.0" : 0.802412,
+                "90.0" : 1.178167,
+                "95.0" : 1.178167,
+                "99.0" : 1.178167,
+                "99.9" : 1.178167,
+                "99.99" : 1.178167,
+                "99.999" : 1.178167,
+                "99.9999" : 1.178167,
+                "100.0" : 1.178167
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.854729,
+                    0.730204,
+                    0.769851,
+                    0.802412,
+                    1.178167
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
